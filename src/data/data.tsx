@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Earning two Bachelor's degrees in Economics and Mathematics, graduating High Honors from William Jewell College.",
   summary:
-    "I'm completing two separate [Bachelor's degrees at William Jewell College](/#education) — a B.A. in Economics (Spring 2026) and a B.A. in Mathematics (Fall 2026) — and am poised to graduate **High Honors**. My advanced coursework spans econometrics, abstract algebra, differential equations, and calculus, equipping me with a rigorous analytical foundation across both disciplines. I was honored at William Jewell's Celebration of Honors with the [Economics Faculty Award](/#awards) as the outstanding graduating senior in economics, building on prior recognition as a [John W. Boatwright Scholar](/#awards) for academic achievement and scholarly excellence in the field. I have maintained Dean's List standing every semester throughout my college career. Outside the classroom, I was named [Partner of the Quarter](/#awards) at Starbucks for reliability, mentorship, and stepping up during periods of high store need while balancing a full course load.",
+    "I'm completing two separate [Bachelor's degrees at William Jewell College](/#education) — a B.A. in Economics (Spring 2026) and a B.A. in Mathematics (Fall 2026) — and am poised to graduate **High Honors**. My advanced coursework spans econometrics, abstract algebra, differential equations, and calculus, equipping me with a rigorous analytical foundation across both disciplines. I was honored at William Jewell's Celebration of Honors with the [Economics Faculty Award](/#awards) as the outstanding graduating senior in economics, building on prior recognition as a [John W. Boatwright Scholar](/#awards) for academic achievement and scholarly excellence in the field. I have maintained Dean's List standing every semester throughout my college career. Outside the classroom, I was named [Partner of the Quarter](/#awards) at Starbucks for reliability, mentorship, and stepping up during periods of high store need while balancing a full course load, and have since been [promoted to Shift Supervisor](/#work), where I lead daily store operations and coach the partners on my shift.",
   avatarUrl: "https://immich.lxrbckl.com/api/assets/85644a4a-1388-49cc-bbad-575e6a6c63b2/thumbnail?slug=jordynBarger&size=preview&c=YSgSFwLoh2h%2FdYWFh3hnl4d3iXA4CXsA&edited=true",
   skills: [
     "Critical Thinking",
@@ -51,12 +51,24 @@ export const DATA = {
       href: "https://www.starbucks.com",
       badges: [],
       location: "Liberty, MO",
+      title: "Shift Supervisor",
+      logoUrl: "https://immich.lxrbckl.com/api/assets/83fef72e-74b9-41e2-86d4-1dc697460fd8/thumbnail?slug=jordynBarger&size=preview&c=6acNBwKn93h0eYiMi2eImJiIigv3t3EP&edited=true",
+      start: "July 2026",
+      end: "Present",
+      description:
+        "Lead daily store operations by directing partners on the floor, upholding Starbucks quality and efficiency standards, and ensuring an exceptional customer experience. Coach and mentor partners while coordinating workflow, resolving customer concerns, and owning shift-level decisions during peak service windows.",
+    },
+    {
+      company: "Starbucks",
+      href: "https://www.starbucks.com",
+      badges: [],
+      location: "Liberty, MO",
       title: "Barista / Trainer",
       logoUrl: "https://immich.lxrbckl.com/api/assets/83fef72e-74b9-41e2-86d4-1dc697460fd8/thumbnail?slug=jordynBarger&size=preview&c=6acNBwKn93h0eYiMi2eImJiIigv3t3EP&edited=true",
       start: "October 2024",
-      end: "Present",
+      end: "July 2026",
       description:
-        "Deliver high-quality customer experiences in a fast-paced, high-volume setting while onboarding and mentoring new team members on company standards and best practices. Oversee inventory management, cash handling, and order accuracy. Analyze sales trends to streamline operations and improve efficiency during peak service windows.",
+        "Delivered high-quality customer experiences in a fast-paced, high-volume setting while onboarding and mentoring new team members on company standards and best practices. Oversaw inventory management, cash handling, and order accuracy. Analyzed sales trends to streamline operations and improve efficiency during peak service windows.",
     },
     {
       company: "Ten & Two Coffee",
