@@ -1,4 +1,4 @@
-FROM node:20-alpine AS base
+FROM node:22-alpine AS base
 
 RUN apk add --no-cache libc6-compat
 
@@ -7,7 +7,7 @@ WORKDIR /app
 # Install dependencies in a separate stage
 FROM base AS deps
 
-COPY package.json pnpm-lock.yaml ./
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 
 RUN corepack enable && corepack prepare pnpm@latest --activate
 RUN pnpm install --frozen-lockfile

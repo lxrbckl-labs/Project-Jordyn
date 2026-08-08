@@ -1,0 +1,7 @@
+# pnpm 10+/11 blocks dependency install/build scripts by default unless
+# explicitly decided here (ERR_PNPM_IGNORED_BUILDS on `install --frozen-lockfile`
+# otherwise). unrs-resolver is a transitive dep of eslint-import-resolver-typescript
+# (used only by `next lint`, which this repo's Docker build never runs), so its
+# postinstall native-binary download is unnecessary here and denied rather than run.
+allowBuilds:
+  unrs-resolver: false
